@@ -13,7 +13,9 @@ With the growing number of media content creators, it has become increasingly im
 
 Python libraries that the notebooks depend on can be installed using:
 
-`$ pip install -r requirements.txt`
+```
+$ pip install -r requirements.txt
+```
 
 # Data Extraction
 
@@ -22,16 +24,16 @@ Python libraries that the notebooks depend on can be installed using:
 # Model Design
 There are 3 main sections:
 1. Defining Utility Functions
-   a. Generating the Cross Validation scores
-   b. Evaluating the model using confusion matrix
-   c. Finding the best parameters through GridSearchCV
+   1. Generating the Cross Validation scores
+   2. Evaluating the model using confusion matrix
+   3. Finding the best parameters through GridSearchCV
 2. Loading of Dataset
-  a. 2 Datasets
-    i. Tree Based Ensemble Models - With Categorical Variables
-    ii. Other Models - Categorical Variables has been processed with One Hot Encoding and Feature Selection
-  b. Scaling of ii. to run probabilistic and instance-based algorithms 
+  1. 2 Datasets
+   1. Tree Based Ensemble Models - With Categorical Variables
+   2. Other Models - Categorical Variables has been processed with One Hot Encoding and Feature Selection
+  2. Scaling of ii. to run probabilistic and instance-based algorithms 
 3. Exploration of Models
-  a. Probabilistic
+   1. Probabilistic
     i. Logistic Regression
     ii. Naive Bayes
   b. Instance Based
