@@ -37,6 +37,21 @@ Data is first extracted from the main page of TheSmartLocal.com, where articlesâ
 - **num_shares**: number of shares of article
 
 # Feature Engineering
+There are 4 main sections:
+1. Feature Engineering
+   1. Main Categories
+   2. Time Features
+   3. Article Count
+   4. Text Features
+   5. Feature Crossing
+3. Data Preprocessing
+   1. One-Hot-Encoding for Categorical Variables
+   2. Binning for Target Variable
+5. Feature Selection
+6. Text Embedding 
+   1. Embedding Techniques
+   2. Models for Evaluation
+   3. Dimensionality Reduction
 
 # Model Design
 There are 3 main sections:
