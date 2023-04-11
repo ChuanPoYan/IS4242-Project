@@ -28,24 +28,24 @@ There are 3 main sections:
    2. Evaluating the model using confusion matrix
    3. Finding the best parameters through GridSearchCV
 2. Loading of Dataset
-  1. 2 Datasets
-   1. Tree Based Ensemble Models - With Categorical Variables
-   2. Other Models - Categorical Variables has been processed with One Hot Encoding and Feature Selection
-  2. Scaling of ii. to run probabilistic and instance-based algorithms 
+   1. 2 Datasets
+      1. Tree Based Ensemble Models - With Categorical Variables
+      2. Other Models - Categorical Variables has been processed with One Hot Encoding and Feature Selection
+   2. Scaling of ii. to run probabilistic and instance-based algorithms 
 3. Exploration of Models
    1. Probabilistic
-    i. Logistic Regression
-    ii. Naive Bayes
-  b. Instance Based
-    i. K-Nearest Neighbours
-    ii. Support Vector Machine
-  c. Tree Based
-    i. Random Forest
-    ii. Catboost
-    iii. LightGBM
-    iv. Adaboost
-  d. Deep Learning
-    i. Convolutional Neural Network
+      1. Logistic Regression
+      2. Naive Bayes
+   2. Instance Based
+      1. K-Nearest Neighbours
+      2. Support Vector Machine
+   3. Tree Based
+      1. Random Forest
+      2. Catboost
+      3. LightGBM
+      4. Adaboost
+   4. Deep Learning
+      1. Convolutional Neural Network
 
 For each model, a baseline model is created to obtain the cross validation score. The performance of the model is evaluated using the confusion matrix and accuracy. To optimise the parameters, GridSearchCV is find the parameters that produces a better performance. The best model is then evaluated once again using the confusion matrix and accuracy.
 
