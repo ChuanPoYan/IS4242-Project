@@ -18,6 +18,23 @@ $ pip install -r requirements.txt
 ```
 
 # Data Extraction
+Data is first extracted from the main page of TheSmartLocal.com, where articles’ preview is being shown . The articles are sorted in descending order of its published date and has 10 different articles per page. Using BeautifulSoup, the code loops through 439 pages and extract information for each article which includes the actual article link. This data is then stored in a dataframe named article_preview. A second data extraction is then performed using BeautifulSoup by looping through each article link stored in article_preview and extracting information within each article link. The final dataset consists of 4390 rows and 13 columns. 
+
+## Description of the raw Data Extracted
+
+- **url**: url of article
+- **title**: title of article
+- **subcategory**: first subcategory of article
+- **preview**: preview content of article (before clicking into article)
+- **content**: full content of article (includes image credits)
+- **reading_duration**: number of minutes to read entire article, around 200 words per minute
+- **author**: author of article
+- **publish_date**: publication date of article
+- **num_imgs**: number of images in article
+- **num_hrefs**: number of hyperlinks in article
+- **num_self_hrefs**: number of hyperlinks in article linked to thesmartlocal.com
+- **num_tags**: number of tags at the end of the article
+- **num_shares**: number of shares of article
 
 # Feature Engineering
 
