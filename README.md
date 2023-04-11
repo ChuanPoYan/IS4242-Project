@@ -31,7 +31,7 @@ There are 3 main sections:
    1. 2 Datasets
       1. Tree Based Ensemble Models - With Categorical Variables
       2. Other Models - Categorical Variables has been processed with One Hot Encoding and Feature Selection
-   2. Scaling of ii. to run probabilistic and instance-based algorithms 
+   2. Scaling of b to run probabilistic and instance-based algorithms 
 3. Exploration of Models
    1. Probabilistic
       1. Logistic Regression
