@@ -81,7 +81,7 @@ There are 3 main sections:
 
 For each model, a baseline model is created to obtain the cross validation score. The performance of the model is evaluated using the confusion matrix and accuracy. To optimise the parameters, GridSearchCV is find the parameters that produces a better performance. The best model is then evaluated once again using the confusion matrix and accuracy.
 
-The best performing model is the **Support Vector Machine** with an **accuracy of 47.6%** after parameter optimisation.
+The best performing model is the **Support Vector Machine** with an **accuracy of 48.7%** after parameter optimisation.
 
 
 # Authors
