@@ -59,6 +59,8 @@ Data Analysis
    2. Binning for Target Variable
 3. Feature Selection
 4. Text Embedding
+   1. Embedding Technique
+   2. Dimensionality Reduction
 
 Text Embedding Selection
 1. Text Embedding
